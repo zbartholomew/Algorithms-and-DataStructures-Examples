@@ -19,6 +19,28 @@ EnumSet | O(1) | O(1) | O(1)
 TreeSet | O(log n) | O(log n) | O(log n)
 ConcurrentSkipListSet | O(log n) | O(log n) | O(1)
 
+-- | get | containsKey | next | Notes
+-- | -- | -- | -- | --
+HashMap | O(1) | O(1) | O(h/n) | h is the table capacity
+LinkedHashMap | O(1) | O(1) | O(1) 
+IdentityHashMap | O(1) | O(1) | O(h/n) | h is the table capacity 
+EnumMap | O(1) | O(1) | O(1) 
+TreeMap | O(log n) | O(log n) | O(log n) 
+ConcurrentHashMap | O(1) | O(1) | O(h/n) | h is the table capacity 
+ConcurrentSkipListMap | O(log n) | O(log n) | O(1)
+
+-- | offer | peek | poll | size
+-- | -- | -- | -- | --
+PriorityQueue | O(log n) | O(1) | O(log n) | O(1)
+ConcurrentLinkedQueue | O(1) | O(1) | O(1) | O(n)
+ArrayBlockingQueue | O(1) | O(1) | O(1) | O(1)
+LinkedBlockingQueue | O(1) | O(1) | O(1) | O(1)
+PriorityBlockingQueue | O(log n) | O(1) | O(log n) | O(1)
+DelayQueue | O(log n) | O(1) | O(log n) | O(1)
+LinkedList | O(1) | O(1) | O(1) | O(1)
+ArrayDeque | O(1) | O(1) | O(1) | O(1)
+LinkedBlockingDeque | O(1) | O(1) |  O(1) | O(1)
+
 ## Array
   - Contains examples of the array structure, as well as,
     - Binary Search
