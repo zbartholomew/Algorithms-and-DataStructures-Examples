@@ -2,18 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="dc3dc34a-2b06-4211-a105-8b872454fa05" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/com/zbartholomew/DoublyLinkedList/DoublyLinkedList.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/com/zbartholomew/LinkedList/LinkedList.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../SortingAndSearching/.idea/vcs.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../SortingAndSearching/src/com/zbartholomew/Searching/BinarySearch.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../SortingAndSearching/src/com/zbartholomew/Sorting/BubbleSort.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../SortingAndSearching/src/com/zbartholomew/Sorting/CountingSort.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../SortingAndSearching/src/com/zbartholomew/Sorting/InsertionSort.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../SortingAndSearching/src/com/zbartholomew/Sorting/MergeSortDetailed.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../SortingAndSearching/src/com/zbartholomew/Sorting/MergeSortSimplified.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../SortingAndSearching/src/com/zbartholomew/Sorting/QuickSort.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../SortingAndSearching/src/com/zbartholomew/Sorting/SelectionSort.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../SortingAndSearching/.idea/workspace.xml" afterPath="$PROJECT_DIR$/../SortingAndSearching/.idea/workspace.xml" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
