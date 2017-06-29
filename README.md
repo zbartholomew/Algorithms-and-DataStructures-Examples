@@ -125,4 +125,27 @@ LinkedBlockingDeque | O(1) | O(1) |  O(1) | O(1)
       nodes.
     - A less common convention is to make it point to the first node of the list; in that case the list is said to be 'circular' or
       'circularly linked'; otherwise it is said to be 'open' or 'linear'.
+      
+## Binary Tree
+  - A tree data structure in which each node has at most two children, which are referred to as the left child and the right child.
+  - A recursive definition using just set theory notions is that a (non-empty) binary tree is a triple (L, S, R), where L and R are
+    binary trees or the empty set and S is a singleton set.
+  - Types of Binary Trees:
+    - rooted 
+    - full 
+    - perfect 
+    - complete 
+    - infinite complete
+    - balanced
+    - degenerate 
+  - Common Operations:
+    - Insertion
+    - Deletion
+    - Traversal
+  - You can search and insert / delete items quickly in a tree
+  - Ordered Arrays are bad at Insertions / Deletions
+  - Finding items in a Linked List is slow
+  - Time needed to preform an operation on a tree is O(log n)
+  - On average a tree is more efficient if you need to perform many different types of operations.
+    
   
