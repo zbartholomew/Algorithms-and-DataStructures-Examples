@@ -147,5 +147,13 @@ LinkedBlockingDeque | O(1) | O(1) |  O(1) | O(1)
   - Finding items in a Linked List is slow
   - Time needed to preform an operation on a tree is O(log n)
   - On average a tree is more efficient if you need to perform many different types of operations.
-    
+  
+## Heap
+  -  Is a specialized tree-based data structure that satisfies the heap property: if P is a parent node of C, then the key (the value) of node P is greater than the key of node C.
+  - A heap can be classified further as either a "max heap" or a "min heap".
+    - In a max heap, the keys of parent nodes are always greater than or equal to those of the children and the highest key is in the root node.
+    - In a min heap, the keys of parent nodes are less than or equal to those of the children and the lowest key is in the root node.
+  - The heap is one maximally efficient implementation of an abstract data type called a priority queue, and in fact priority queues are often referred to as "heaps", regardless of how they may be implemented.
+  -  A common implementation of a heap is the binary heap, in which the tree is a complete binary tree (see figure).
+  ![heap](https://user-images.githubusercontent.com/16873263/27721625-5d5b654e-5d16-11e7-9572-764abc4ee36e.png)
   
