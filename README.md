@@ -184,4 +184,30 @@ LinkedBlockingDeque | O(1) | O(1) |  O(1) | O(1)
   
   ![trie_example](https://user-images.githubusercontent.com/16873263/27943379-90c7783c-6293-11e7-9231-e0ce8b15f889.png)
 
-  
+## Graph
+  - A Graph is an abstract data type that is meant to implement the undirected graph and directed graph concepts from mathematics, specifically the field of graph theory.
+  - Different data structures for the representation of graphs are used in practice:
+    - Adjacency list
+      - Vertices are stored as records or objects, and every vertex stores a list of adjacent vertices. This data structure allows the storage of additional data on the vertices. Additional data can be stored if edges are also stored as objects, in which case each vertex stores its incident edges and each edge stores its incident vertices.
+    - Adjacency matrix
+      - A two-dimensional matrix, in which the rows represent source vertices and columns represent destination vertices. Data on edges and vertices must be stored externally. Only the cost for one edge can be stored between each pair of vertices.
+    - Incidence matrix
+      - A two-dimensional Boolean matrix, in which the rows represent the vertices and columns represent the edges. The entries indicate whether the vertex at a row is incident to the edge at a column.
+
+![directedgraph](https://user-images.githubusercontent.com/16873263/28236725-7972acc4-68e2-11e7-9a59-72a97c955a52.png)
+      
+  - Graph Traversal algorithms
+    - Depth-first search (DFS) is an algorithm for traversing or searching tree or graph data structures. 
+      - One starts at the root (selecting some arbitrary node as the root in the case of a graph) and explores as far as possible along each branch before backtracking.
+      - Worst-case performance	O(|V|+|E|) for explicit graphs traversed without repetition, O(b^d) for implicit graphs with branching factor b searched to depth d
+      - Worst-case space complexity	O(|V|) if entire graph is traversed without repetition, O(longest path length searched) for implicit graphs without elimination of duplicate nodes
+      - The non-recursive implementation is similar to breadth-first search but differs from it in two ways:
+        - it uses a stack instead of a queue, and
+        - it delays checking whether a vertex has been discovered until the vertex is popped from the stack rather than making this check before adding the vertex.
+    - Breadth-first search (BFS) is an algorithm for traversing or searching tree or graph data structures. 
+      - It starts at the tree root (or some arbitrary node of a graph, sometimes referred to as a 'search key') and explores the neighbor nodes first, before moving to the next level neighbors.
+      - Worst-case performance	O(|V|+|E|)= O(b^d)
+      - Worst-case space complexity	O(|V|)=O(b^d)
+      - This non-recursive implementation is similar to the non-recursive implementation of depth-first search, but differs from it in two ways: 
+        - it uses a queue (First In First Out) instead of a stack and 
+        - it checks whether a vertex has been discovered before enqueueing the vertex rather than delaying this check until the vertex is dequeued from the queue.
